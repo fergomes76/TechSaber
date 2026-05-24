@@ -1,0 +1,77 @@
+/* STYLE CSS - TechSaber+
+   Estilos globais reutilizados em todas as páginas */
+
+/* ── IMPORTA A FONTE DO GOOGLE ── */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* ── CORPO DA PÁGINA ── */
+body {
+    font-family: var(--fonte);
+    background: var(--gradiente-fundo);
+    color: var(--texto-claro);
+    min-height: 100vh; /* página ocupa no mínimo a tela inteira */
+}
+
+/* ── NAVBAR ── */
+nav {
+    display: flex;
+    justify-content: space-between; /* logo à esquerda, botões à direita */
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgba(0, 0, 0, 0.2); /* fundo levemente escuro */
+}
+
+.nav-logo {
+    font-size: var(--fonte-media);
+    font-weight: 700;
+    color: var(--texto-claro);
+}
+
+/* ── BOTÕES ── */
+.btn-primario {
+    background: var(--cor-primaria);
+    color: var(--texto-claro);
+    border: none;
+    padding: 0.6rem 1.4rem;
+    border-radius: var(--borda-raio-btn);
+    font-family: var(--fonte);
+    font-weight: 600;
+    cursor: pointer; /* mostra a mãozinha ao passar o mouse */
+}
+
+.btn-primario:hover {
+    background: var(--cor-primaria-hover); /* escurece ao passar o mouse */
+}
+
+.btn-destaque {
+    background: var(--cor-destaque); /* rosa/pink */
+    color: var(--texto-claro);
+    border: none;
+    padding: 0.6rem 1.4rem;
+    border-radius: var(--borda-raio-btn);
+    font-family: var(--fonte);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-destaque:hover {
+    opacity: 0.85; /* levemente transparente ao hover */
+}
+
+/* ── CARDS ── */
+.card {
+    background: var(--card-fundo);
+    border: 1px solid var(--card-borda);
+    border-radius: var(--borda-raio);
+    padding: var(--espaco-p);
+}
+
+/* ── LINKS ── */
+a {
+    color: var(--texto-claro);
+    text-decoration: none; /* remove sublinhado padrão */
+}
+
+a:hover {
+    color: var(--cor-destaque);
+}

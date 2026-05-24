@@ -1,0 +1,44 @@
+/* VARIABLES CSS - TechSaber+
+   Cores, fontes e tamanhos globais do site */
+
+:root {
+
+    /* ── CORES PRINCIPAIS ── */
+    --cor-fundo: #4a0e6e;          /* roxo escuro do fundo */
+    --cor-fundo-escuro: #1a0a2e;   /* roxo muito escuro dos cards */
+    --cor-primaria: #9333ea;       /* roxo vibrante principal */
+    --cor-primaria-hover: #7e22ce; /* roxo escurecido ao hover */
+    --cor-destaque: #ec4899;       /* rosa/pink dos botões e badges */
+    --cor-xp: #ef4444;             /* vermelho/laranja do XP e fogo */
+
+    /* ── CORES DE TEXTO ── */
+    --texto-claro: #ffffff;        /* texto principal */
+    --texto-suave: #d8b4fe;        /* texto roxo claro secundário */
+
+    /* ── CORES DE CARDS ── */
+    --card-fundo: #2d1052;         /* fundo dos cards */
+    --card-borda: #6b21a8;         /* borda dos cards */
+
+    /* ── FONTE ── */
+    --fonte-titulo: 'Space Grotesk', sans-serif;
+    
+    /* ── TAMANHOS DE FONTE ── */
+    --fonte-pequena: 0.875rem;     /* 14px */
+    --fonte-normal: 1rem;          /* 16px */
+    --fonte-media: 1.25rem;        /* 20px */
+    --fonte-grande: 2rem;          /* 32px */
+    --fonte-titulo: 3rem;          /* 48px */
+
+    /* ── ESPAÇAMENTOS ── */
+    --espaco-p: 1rem;              /* espaço pequeno */
+    --espaco-m: 2rem;              /* espaço médio */
+    --espaco-g: 4rem;              /* espaço grande */
+
+    /* ── BORDAS ── */
+    --borda-raio: 12px;            /* arredondamento padrão */
+    --borda-raio-btn: 8px;         /* arredondamento de botões */
+
+    /* ── GRADIENTES ── */
+    --gradiente-fundo: linear-gradient(135deg, #1a0a2e 0%, #4a0e6e 50%, #7e22ce 100%);
+    --gradiente-card: linear-gradient(135deg, #2d1052 0%, #6b21a8 100%);
+}
